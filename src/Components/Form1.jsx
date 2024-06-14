@@ -1,5 +1,5 @@
 import { useState } from "react";
-import PropTypes from "prop-types";
+import PropTypes from "prop-types" ;
 
 const Form1 = ({ formData, setFormData, nextStep }) => {
   const [errors, setErrors] = useState({});
