@@ -10,12 +10,12 @@ const Posts = () => {
       const data = await response.json();
       console.log(data.data);
 
-      if (Array.isArray(data.data)) {
+  //    if (Array.isArray(data.data)) {
         // Add this check
         setPosts(data.data);
-      } else {
-        console.error("Fetched data is not an array");
-      }
+   //   } else {
+    //    console.error("Fetched data is not an array");
+  //    }
     };
 
     fetchPosts();
